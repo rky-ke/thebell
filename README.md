@@ -38,9 +38,10 @@
 
 3. **Environment Configuration**
 
- Copy the .env.example file to .env and configure your environment settings.
+    Copy the .env.example file to .env and configure your environment settings.
     ```sh
-    cp .env.example .env
+    
+        cp .env.example .env
 
  Open the .env file and update the following lines with your database and other settings.
     ```sh
