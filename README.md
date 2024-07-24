@@ -15,7 +15,7 @@
 
 ### Prerequisites
 
-- PHP >= 8.0
+- PHP >= 11.0
 - Composer
 - Node.js & npm
 - A web server (e.g., Apache, Nginx, Litespeed)
