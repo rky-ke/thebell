@@ -44,6 +44,7 @@
 
  Open the .env file and update the following lines with your database and other settings.
     ```sh
+    
         APP_NAME="The Bell"
         APP_ENV=local
         APP_KEY=base64:randomkeygenerated
