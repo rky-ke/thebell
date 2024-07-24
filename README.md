@@ -70,7 +70,7 @@
 
 8. **Deployment**
 
-    For deployment, you can use services like Forge, Envoyer, or deploy manually to your web server. Ensure you set your environment to production and compile your assets using:
+    For deployment, you can use services like Forge, Envoyer, or deploy manually to your web server. Ensure you set your environment to production and compile your assets using
         ```sh
         npm run production
 
