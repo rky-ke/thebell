@@ -38,7 +38,7 @@
 
 3. **Environment Configuration**
 
-    Copy the .env.example file to .env and configure your environment settings.
+ Copy the .env.example file to .env and configure your environment settings.
     ```sh
         cp .env.example .env
 
