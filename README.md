@@ -42,7 +42,7 @@
     ```sh
         cp .env.example .env
 
-Open the .env file and update the following lines with your database and other settings.
+    Open the .env file and update the following lines with your database and other settings.
 
 4. **Generate Application Key**
 
