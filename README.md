@@ -39,24 +39,39 @@
 
 3. **Environment Configuration**
 
-Copy the .env.example file to .env and configure your environment settings.
-   ```sh
-    cp .env.example .env
-    ```
-Open the .env file and update the following lines with your database and other settings
+    Copy the .env.example file to .env and configure your environment settings.
     ```sh
-    APP_NAME="The Bell"
-    APP_ENV=local
-    APP_KEY=base64:randomkeygenerated
-    APP_DEBUG=true
-    APP_URL=http://localhost
+        cp .env.example .env
 
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=your_database_name
-    DB_USERNAME=your_database_user
-    DB_PASSWORD=your_database_password
+4. **Generate Application Key**
 
-    ```
+    Generate the application key, which is used for encryption.
+    ```sh
+    php artisan key:generate
+
+5. **Run Database Migrations**
+
+    Run the database migrations to create the necessary tables.
+    ```sh
+    php artisan migrate
+
+6. **Compile Assets**
+
+    Compile the CSS and JavaScript assets.
+    ```sh
+    npm run dev
+
+7. **Serve the Application**
+
+    Start the Laravel development server.
+    ```sh
+    php artisan serve
+
+
+### Deployment
+
+For deployment, you can use services like Forge, Envoyer, or deploy manually to your web server. Ensure you set your environment to production and compile your assets using:
+    ```sh
+    npm run production
+
 
