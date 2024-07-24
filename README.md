@@ -28,20 +28,21 @@
    ```sh
    git clone https://github.com/rky-ke/thebell.git
    cd thebell
-   ```
+   
 
 2. **Install Dependencies**
 
    ```sh
     composer install
     npm install
-    ```
 
 3. **Environment Configuration**
 
     Copy the .env.example file to .env and configure your environment settings.
     ```sh
         cp .env.example .env
+    
+    Open the .env file and update the following lines with your database and other settings.
 
 4. **Generate Application Key**
 
