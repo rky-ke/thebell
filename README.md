@@ -26,5 +26,37 @@
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com/yourusername/The-Bell.git
-   cd The-Bell
+   git clone https://github.com/rky-ke/thebell.git
+   cd thebell
+   ```
+
+2. **Install Dependencies**
+
+   ```sh
+    composer install
+    npm install
+    ```
+
+3. **Environment Configuration**
+
+Copy the .env.example file to .env and configure your environment settings.
+   ```sh
+    cp .env.example .env
+    ```
+Open the .env file and update the following lines with your database and other settings
+    ```sh
+    APP_NAME="The Bell"
+    APP_ENV=local
+    APP_KEY=base64:randomkeygenerated
+    APP_DEBUG=true
+    APP_URL=http://localhost
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_user
+    DB_PASSWORD=your_database_password
+
+    ```
+
